@@ -1,0 +1,261 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: rgb(213, 150, 255);
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(130, 143, 255);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);   
+}
+.banner-section{
+    padding: 100px 0;
+    background: url(img/banner-bg.jpg);
+    margin-top: 122px;
+    background-size: cover;
+    background-position: center;
+}
+.banner-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 52px;
+}
+.banner-title, .banner-description {
+    text-align: center;
+    color: white;
+}
+.cards-section{
+    padding: 50px 0;
+}
+.cards-title, .cards-description{
+    color: white;
+    text-align: center;
+}
+.card {
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: wheat;
+    text-align: center;
+}
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+.card-button {
+    background-color: rgb(255, 153, 0);
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.card-title, .card-description {
+    margin-top: 10px;
+}
+.card-button:hover {
+    background: linear-gradient(0deg, rgb(213, 150, 255), rgb(255, 153, 0));
+    cursor: pointer;
+}
+.footer {
+    background-image: url(img/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0;
+}
+.copyright {
+    color: white;
+    padding: 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex: row;
+}
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.logo-img{
+    margin-right: 20px;
+}
+.header-menu{
+    flex-grow: 3;
+}
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social-networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+.footer-search-input{
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    flex-grow: 3;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-search-button{
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: none;
+    flex-grow: 2;
+}

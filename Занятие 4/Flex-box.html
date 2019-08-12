@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex-box</title>
+    <style>
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .header{
+            background: red;
+            padding: 10px;
+        }
+        .footer {
+            background: rgb(0, 255, 0);
+            padding: 10px;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            background: rgb(0, 0, 255);
+            padding: 20px;
+        }
+        .aside{
+            padding: 30px;
+        }
+        .aside-left{
+            background: yellow;
+            order: 1;
+            flex: 2;
+        }
+        .aside-right{
+            background: violet;
+            order: 3;
+            flex: 2;
+        }
+        .article{
+            background: brown;
+            order: 2;
+            flex: 4;
+            padding: 30px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="main">
+            <aside class="aside aside-left">LLEEFFTT</aside>
+            <article class="article">Что-нибудб</article>
+            <aside class="aside aside-right">RRIIGGHHTT</aside>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>

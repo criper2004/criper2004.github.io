@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+        body{
+            background-color: lightgray;
+        }
+        ul.menu{
+            background-color: rgb(124, 124, 124);
+            list-style: none;
+            border-bottom: 5px solid rgb(255, 238, 0);
+            padding-bottom: 5px;
+        }
+        ul.menu li {
+            display:inline;
+            margin-right: 120px;
+        }
+        ul.menu li a {
+            text-decoration: none;
+            color: rgb(255, 238, 0);
+            border: 1px solid rgb(255, 238, 0);
+            border-bottom: none;
+            padding: 10px;
+        }
+        ul.menu li a.selected{
+            color: blue;
+            background-color: rgb(255, 238, 0);
+        }
+        ul.menu li a:hover {
+            background: rebeccapurple;
+        }
+        </style>
+    </head>
+    <body>
+        <ul class="menu">
+            <li> <a href="#" class="selected">Главная</a> </li>
+            <li> <a href="#">Новости</a> </li>
+            <li> <a href="#">Галерея</a> </li>
+            <li> <a href="#">Контакты</a> </li>
+        </ul>
+    </body>
+</html>
