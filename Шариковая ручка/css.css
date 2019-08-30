@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    background: #eeeeee
+}
+.header{
+    background: #b4b4b4;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.logo-img{
+    height: 80px;
+    width: 80px
+}
+.logo-name{
+    font-family: 'Pacifico', cursive;
+
+}
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+.menu-nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 10px;
+}
+.article-1888{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.a-1888{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.article-image-1888{
+    padding: 0px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.under-image-text{
+    margin: 0 auto;
+    color: burlywood;
+    font-family: 'Montserrat', sans-serif;
+}
+.text{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.a-1938{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.article-1938{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.a-1953{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.img-1953{
+    border-radius: 10px;
+}
+.img-1938{
+    border-radius: 10px;
+}
+.img-1888{
+    border-radius: 0 0 10px 10px;
+}
+.img-USSR{
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+.a-USSR{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.nav-item:hover{
+    background-color: #eeeeee;
+}
+.menu-nav-link:hover{
+    color: brown;
+}
+.title-USSR{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer{
+    background: #b3b3b3;
+}
+.wiki{
+    height: 64px;
+    width: 64px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.sourses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
