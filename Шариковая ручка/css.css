@@ -18,7 +18,10 @@ body{
     height: 80px;
     width: 80px
 }
+.logo-name{
+    font-family: 'Pacifico', cursive;
 
+}
 
 .menu-nav{
     display: flex;
@@ -52,12 +55,16 @@ body{
 .title{
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .under-image-text{
-    margin: 0 auto; 
+    margin: 0 auto;
+    color: burlywood;
+    font-family: 'Montserrat', sans-serif;
 }
 .text{
     font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
 }
 .a-1938{
     display: flex;
@@ -106,6 +113,7 @@ body{
     color: red;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer{
     background: #b3b3b3;
